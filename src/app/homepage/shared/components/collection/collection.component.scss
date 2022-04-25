@@ -1,0 +1,62 @@
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    dect-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  
+  }
+  .wrapper_collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+  }
+  .name_wrapper{
+    display: flex;
+    flex-direction: row;
+     
+  }
+  .collection_title {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #777777;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .collection_name-block {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 55px;
+    list-style: none;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300 light;
+  }
+  .collection_name {
+    color: #777777;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300 light;
+  }
+  hr{
+    width: 450px;
+    margin: 0 auto;
+    border: none;
+    background-color: #777777;
+    height: 2px;
+   
+   
+  }
