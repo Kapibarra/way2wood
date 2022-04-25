@@ -1,4 +1,9 @@
-.collections {
+.collection-page{
+max-width: 1200px;
+margin: 0 auto;
+
+}
+.wrapper_collection {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -6,19 +11,15 @@
     align-items: center;
     margin: 0 auto;
     max-width: 1200px;
-  
   }
-  .wrapper_collection{
+  .name_wrapper {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     justify-content: center;
-    margin-top: 30px; 
-    margin-bottom: 30px;
-  }
-  .name_wrapper{
-    display: flex;
-    flex-direction: row;
-     
+    align-items: center;
+    margin-top: 40px;
+    padding-right: 20px;
   }
   .collection_title {
     font-family: "Roboto Condensed";
@@ -32,18 +33,23 @@
     text-transform: uppercase;
     color: #777777;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .collection_name-block {
     display: flex;
     flex-direction: row;
-    margin: 15px 55px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-right: 70px;
+    margin-left: 40px;
     list-style: none;
     text-transform: uppercase;
     color: #777777;
     font-size: 18px;
     line-height: 27px;
     font-weight: 300 light;
+    justify-content: center;
+    align-items: center;
   }
   .collection_name {
     color: #777777;
@@ -51,12 +57,11 @@
     line-height: 27px;
     font-weight: 300 light;
   }
-  hr{
+  hr {
     width: 450px;
     margin: 0 auto;
     border: none;
     background-color: #777777;
     height: 2px;
-   
-   
+    margin-bottom: 30px;
   }
