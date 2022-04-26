@@ -12,6 +12,7 @@ import { QuestionComponent } from './homepage/shared/components/question/questio
 import { DetailsComponent } from './homepage/shared/components/details/details.component';
 import { ContactsComponent } from './homepage/shared/components/contacts/contacts.component';
 import { FooterComponent } from './homepage/shared/components/footer/footer.component';
+import { MainPageComponent } from './homepage/main-page/main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './homepage/shared/components/footer/footer.comp
     QuestionComponent,
     DetailsComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
