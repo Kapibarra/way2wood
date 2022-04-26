@@ -12,7 +12,6 @@
 }
 
 .about-title {
-  font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
@@ -22,23 +21,26 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #777777;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 300px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 37px;
+}
+.number{
+  color: #a9853a;
 }
 .about-group_info {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 300 light;
+  font-weight: 300;
   max-width: 450px;
   color: #777777;
+  margin-bottom: 30px;
 }
 .about-title_group {
   font-size: 18px;
   line-height: 27px;
   display: block;
   width: 514px;
-  font-weight: 300 light;
+  font-weight: 300;
   color: #777777;
   text-transform: uppercase;
 }
