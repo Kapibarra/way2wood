@@ -13,6 +13,9 @@ import { DetailsComponent } from './homepage/shared/components/details/details.c
 import { ContactsComponent } from './homepage/shared/components/contacts/contacts.component';
 import { FooterComponent } from './homepage/shared/components/footer/footer.component';
 import { MainPageComponent } from './homepage/main-page/main-page/main-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 @NgModule({
   declarations: [
@@ -26,11 +29,13 @@ import { MainPageComponent } from './homepage/main-page/main-page/main-page.comp
     DetailsComponent,
     ContactsComponent,
     FooterComponent,
-    MainPageComponent
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
