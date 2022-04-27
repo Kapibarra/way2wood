@@ -11,5 +11,13 @@
     & .about__accordion {
         width: 100%;
         max-width: 520px;
+        & .about__title {
+            font-weight: 300;
+            font-size: 40px;
+            color: #777777;
+            .highlighted {
+                color: #A9853A !important;
+            }
+        }
     }
 }

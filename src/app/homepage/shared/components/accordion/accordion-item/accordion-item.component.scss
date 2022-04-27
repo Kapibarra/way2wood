@@ -1,16 +1,18 @@
 .acc-header {
-    border-bottom: 1px solid #000;
+    border-top: 1px solid #D5D5D5;
     min-height: 30px;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
+    padding: 25px 0px;
 }
 
 .header__title {
     width: 100%;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 18px;
+    color: #777777;
 }
 
 .body {
