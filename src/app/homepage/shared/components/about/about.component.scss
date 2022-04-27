@@ -43,16 +43,17 @@
   width: calc(100% - 40px);
   margin: 0 auto;
   height: 0;
-
   background-color: #fff;
   line-height: 18px;
-  padding: 0 40px;
+  padding: 0 30px;
   box-sizing: border-box;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 18px;
 }
 .acor-container_about .acor-body_about p {
-  margin: 0 10px 10px;
+  margin-left: -10px;
+  
+  
 }
 .acor-container_about label {
   cursor: pointer;
@@ -71,6 +72,8 @@
 
 .acor-container_about input {
   display: none;
+  
+
 }
 .acor-container_about label:before {
   content: "\276F";
@@ -80,9 +83,11 @@
 
 .acor-container_about input:checked + label + .acor-body_about {
   height: auto;
-  margin-top: -5px;
+  font-size: 18px;
+  margin-top: -15px;
   color: #777777;
-  padding: 20px 30px 10px;
+  padding: 5px 10px;
+  
 }
 .about-title {
   font-style: normal;
