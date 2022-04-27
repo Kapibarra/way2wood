@@ -40,5 +40,8 @@ showBody = false
   }
 toggleAccordion() {
   this.showBody = !this.showBody;
+
+  console.log(event);
+  
 }
 }

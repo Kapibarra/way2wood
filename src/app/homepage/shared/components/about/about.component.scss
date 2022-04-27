@@ -7,7 +7,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
     }
     & .about__accordion {
         width: 100%;
@@ -27,5 +26,8 @@
             font-size: 18px;
             color: #777777;
         }
+    }
+    & .about__image {
+        margin-top: 80px;
     }
 }
