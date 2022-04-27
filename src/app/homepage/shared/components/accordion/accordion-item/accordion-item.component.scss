@@ -1,0 +1,22 @@
+.acc-header {
+    border-bottom: 1px solid #000;
+    min-height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__title {
+    width: 100%;
+    font-weight: 600;
+}
+
+.body {
+    min-height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}

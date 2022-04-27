@@ -1,0 +1,11 @@
+<div class="acc-header" (click)="toggleAccordion()">
+    <div class="header__title">
+        {{title}}
+    </div>
+    <div class="arrow">1</div>
+</div>
+<div class="acc-body" *ngIf="showBody">
+    <div class="body">
+        <ng-content></ng-content>
+    </div>
+</div>
