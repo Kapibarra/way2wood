@@ -9,6 +9,7 @@
     border: 1px solid #000000;
     top: 0;
     left: 0;
+    background-image: url("");
   }
   
   .header {
@@ -50,7 +51,7 @@
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #777;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -70,15 +71,15 @@
   }
   .header-info {
     text-decoration: none;
-    color: #fff;
+    color: #777;
   }
   .header-title {
     position: relative;
   }
   .header_title-title {
     text-transform: uppercase;
-    color: #ffffff;
-    padding-top: 20px;
+    color: #777;
+    padding-top: 60px;
     z-index: 1;
     font-size: 40px;
     line-height: 75px;
@@ -97,14 +98,14 @@
     font-weight: 300 light;
     font-size: 20px;
     line-height: 27px;
-    color: #ffffff;
+    color: #777;
     text-align: center;
     text-transform: uppercase;
     align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
-    top: -60px;
+    top: -40px;
   }
   .header-button {
     display: flex;
@@ -116,11 +117,11 @@
     height: 60px;
     margin: 0 auto;
     margin-top: 70px;
-    border: 1px solid #ffffff;
+    border: 1px solid #777;
     box-sizing: border-box;
   }
   .blog__card-btn {
-    color: #fff;
+    color: #777;
     border: none;
     background: none;
     font-family: "Roboto Condensed";
@@ -129,4 +130,10 @@
     font-size: 14px;
     line-height: 16px;
   }
-  
+  .header_next{
+    color: #777;
+    width: 40px;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
