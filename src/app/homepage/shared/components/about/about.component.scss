@@ -7,6 +7,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
     & .about__accordion {
         width: 100%;
@@ -18,6 +19,11 @@
             .highlighted {
                 color: #A9853A !important;
             }
+        }
+        & .about__subtitle {
+            font-weight: 300;
+            font-size: 18px;
+            color: #777777;
         }
     }
 }

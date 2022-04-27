@@ -12,13 +12,17 @@
     width: 100%;
     font-weight: 300;
     font-size: 18px;
+    text-transform: uppercase;
     color: #777777;
 }
 
 .body {
     min-height: 30px;
-    padding: 10px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #000;
+    padding-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #282828;
+    text-transform: uppercase;
 }
