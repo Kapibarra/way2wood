@@ -1,0 +1,36 @@
+.highlighted {
+    color: #A9853A;
+}
+
+.hero__wrapper {
+    background-image: url("../../../../../assets/img/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    margin-top: -105px;
+}
+
+.hero {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 265px;
+    & .hero__title {
+        font-size: 140px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    & .hero__subtitle {
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        line-height: 27px;
+        margin-top: 25px;
+        text-align: center;
+        color: #fff;
+    }
+}
