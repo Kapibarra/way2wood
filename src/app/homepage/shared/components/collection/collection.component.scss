@@ -58,6 +58,16 @@
                 text-transform: uppercase;
                 line-height: 27px;
             }
+            & .tabs__collection {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                & .tabs__collection-item {
+                    height: 100%;
+                    margin: 5px;
+                }
+            }
         }
     }
 }

@@ -11,14 +11,23 @@
                 <h3 class="tabs__description-title"> Коллекция «Flora»- сплетение рельефного рисунка из листьев производит эффектное впечатление! Каждое изделие состоит из сотен граней, которые станут украшением любого интерьера. Зеркала из коллекции «Flora» могут быть выполнены в лаконичной
                     и спокойной цветовой гамме, но W2W любит смелые цветовые решения! Именно в этой коллекции наиболее ярко выглядят металлизированные эмали, спецэффекты, патины и используются уникальные технологии покраски.
                 </h3>
+                <div class="tabs__collection">
+                    <img class="tabs__collection-item" *ngFor="let image of Flora" [src]="image.src">
+                </div>
             </div>
             <div class="tabs__description" *ngIf="activeTab == 'Ornament'" @myInsertRemoveTrigger>
                 <h3 class="tabs__description-title"> Эта коллекция появилась благодаря резным орнаментам усть-полуйской культуры Крайнего Севера. Узору более 2000-х тысяч лет! Именно вечная мерзлота помогла сохранить берестяные изделия в отличном качестве. Мастера прошлого работали на бересте
                     с необыкновенной точностью создавая тонкую работу. В мастерской W2W мы воссоздали древний орнамент, стараясь сохранить ритмичность рисунка и чёткость линий. Предмет интерьера из коллекции «Ornament» имеет не только художественную ценность,
                     но и хранит в себе память о былой культуре северного народа.</h3>
+                <div class="tabs__collection">
+                    <img class="tabs__collection-item" *ngFor="let image of Ornament" [src]="image.src">
+                </div>
             </div>
             <div class="tabs__description" *ngIf="activeTab == 'Forest'" @myInsertRemoveTrigger>
                 <h3 class="tabs__description-title">3</h3>
+                <div class="tabs__collection">
+                    <img class="tabs__collection-item" *ngFor="let image of Forest" [src]="image.src">
+                </div>
             </div>
         </div>
     </div>
