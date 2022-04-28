@@ -1,3 +1,7 @@
+.contacts_wrapper{
+width: 100%;
+}
+
 .contacts_title{
 margin: 0 auto;
 color: #777;
@@ -11,4 +15,43 @@ font-size: 40px;
 line-height: 47px;
 width: 206px;
 
+}
+.title-contact{
+ color: #777;
+ display: flex;
+ font-weight: 400;
+ line-height: 47px;
+ text-transform: uppercase;
+ margin: 90px 120px 30px;
+}
+.contact_page{
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 480px;
+  font-weight: 300;
+  color: #777777;
+  margin-left: 115px;
+
+
+}
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  color: #777;
+  padding: 20px;
+}
+.form-group label{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group_form-actions{
+  width: 228px;
+  height: 60px;
 }
