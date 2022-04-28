@@ -59,13 +59,12 @@
                 line-height: 27px;
             }
             & .tabs__collection {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
+                column-count: 2;
                 & .tabs__collection-item {
                     height: 100%;
-                    margin: 5px;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    min-width: 296px;
                 }
             }
         }
