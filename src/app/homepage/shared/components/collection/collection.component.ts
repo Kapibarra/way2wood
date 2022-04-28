@@ -10,7 +10,7 @@ interface Collection {
   selector: 'app-collection',
   templateUrl: './collection.component.html',
   animations: [
-    trigger('myInsertRemoveTrigger', [
+    trigger('Opacity', [
       transition(':enter', [
         style({ opacity: 0 }),
         animate('250ms', style({ opacity: 1 })),
