@@ -1,1 +1,21 @@
-<p>collection works!</p>
+<div class="collection-wrapper">
+    <div class="collection">
+        <h2 class="collection__title">коллекции</h2>
+        <div class="collection__tabs">
+            <ul class="collection__tabs-nav">
+                <li class="tabs__nav-item" (click)="onTabCLick('Flora')" [class.active]="activeTab == 'Flora'">Flora</li>
+                <li class="tabs__nav-item" (click)="onTabCLick('Ornament')" [class.active]="activeTab == 'Ornament'">Ornament</li>
+                <li class="tabs__nav-item" (click)="onTabCLick('Forest')" [class.active]="activeTab == 'Forest'">forest</li>
+            </ul>
+            <div class="tabs__description" *ngIf="activeTab == 'Flora'">
+                <h3 class="tabs__description-title">1</h3>
+            </div>
+            <div class="tabs__description" *ngIf="activeTab == 'Ornament'">
+                <h3 class="tabs__description-title">2</h3>
+            </div>
+            <div class="tabs__description" *ngIf="activeTab == 'Forest'">
+                <h3 class="tabs__description-title">3</h3>
+            </div>
+        </div>
+    </div>
+</div>
