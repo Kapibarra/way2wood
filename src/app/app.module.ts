@@ -33,7 +33,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MainPageComponent,
     AccordionComponent,
     AccordionItemComponent
-  ],
+],
   imports: [
     BrowserModule,
     AppRoutingModule,
