@@ -69,4 +69,24 @@
             }
         }
     }
+    & .collection__button {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 80px;
+        border-bottom: 1px solid #777777;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5px;
+        & img {
+            transform: translateX(110px)
+        }
+    }
 }
