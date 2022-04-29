@@ -1,3 +1,4 @@
+
 .collection-page{
 max-width: 1200px;
 margin: 0 auto;
@@ -65,3 +66,95 @@ margin: 0 auto;
     height: 2px;
     margin-bottom: 30px;
   }
+.collection {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    & .collection__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #777777;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        margin-bottom: 60px;
+    }
+    & .collection__tabs {
+        & .collection__tabs-nav {
+            width: 100%;
+            max-width: 375px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            & .tabs__nav-item {
+                width: 33.4%;
+                cursor: pointer;
+                font-size: 14px;
+                color: #777777;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                border-bottom: 1px solid #777777;
+                transition: all 300ms ease-in-out;
+                padding-bottom: 10px;
+            }
+            & .text-align-l {
+                text-align: left;
+            }
+            & .text-align-c {
+                text-align: center;
+            }
+            & .text-align-r {
+                text-align: right;
+            }
+            & .tabs__nav-item.active {
+                border-bottom: 1px solid #A9853A;
+                transition: all 300ms ease-in-out;
+                color: #A9853A;
+            }
+        }
+        & .tabs__description {
+            & .tabs__description-title {
+                margin-top: 50px;
+                margin-bottom: 45px;
+                font-size: 14px;
+                font-weight: 300;
+                color: #282828;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                line-height: 27px;
+            }
+            & .tabs__collection {
+                column-count: 2;
+                & .tabs__collection-item {
+                    height: 100%;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    min-width: 296px;
+                }
+            }
+        }
+    }
+    & .collection__button {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 80px;
+        border-bottom: 1px solid #D5D5D5;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5px;
+        & img {
+            transform: translateX(110px)
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.acc-header {
+    border-top: 1px solid #D5D5D5;
+    min-height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.header__title {
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.body {
+    display: flex;
+    padding-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    color: #282828;
+    text-transform: uppercase;
+}

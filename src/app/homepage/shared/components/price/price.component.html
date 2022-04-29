@@ -1,1 +1,81 @@
-<p>price works!</p>
+<div class="price__wrapper">
+    <div class="price">
+        <div class="price__title">Цены</div>
+        <div class="price__tabs">
+            <ul class="price__tabs-nav">
+                <li class="tabs__nav-item text-align-l" (click)="onTabCLick('Flora')" [class.active]="activeTab == 'Flora'">Flora</li>
+                <li class="tabs__nav-item text-align-c" (click)="onTabCLick('Ornament')" [class.active]="activeTab == 'Ornament'">Ornament</li>
+                <li class="tabs__nav-item text-align-r" (click)="onTabCLick('Forest')" [class.active]="activeTab == 'Forest'">forest</li>
+            </ul>
+            <div class="tabs__description" *ngIf="activeTab == 'Flora'" @Opacity>
+                <h3 class="tabs__description-title">FLORA
+                </h3>
+                <h4 class="tabs__description-subtitle">от 35.000 ₽</h4>
+                <div class="tabs__description-table">
+                    <div class="description__table-ul">
+                        <h4 class="table__title">Покрытие:</h4>
+                        <ul>
+                            <li>Колерованная эмаль
+                            </li>
+                            <li>Металлизированная эмаль + Патина</li>
+                            <li>Жидкий металл</li>
+                        </ul>
+                    </div>
+                    <div class="description__table-ul">
+                        <h4 class="table__title">Материал:</h4>
+                        <ul>
+                            <li>Влагостойкий МДФ
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="description__table-ul">
+                        <h4 class="table__title">Доступные размеры:</h4>
+                        <ul>
+                            <li>Круг 800х800
+                            </li>
+                            <li>Круг 1000х1000
+                            </li>
+                            <li>Квадрат 1000х1000
+                            </li>
+                            <li>Квадрат 800х800
+                            </li>
+                            <li>Прямоугольник 1800х900
+                            </li>
+                            <li>Круг в квадрате 1000х1000
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="description__table-ul">
+                        <h4 class="table__title">Цены:</h4>
+                        <ul>
+                            <li>от 35.000 ₽
+                            </li>
+                            <li>от 45.000 ₽
+                            </li>
+                            <li>от 35.000 ₽
+                            </li>
+                            <li>от 45.000 ₽
+                            </li>
+                            <li>от 60.000 ₽
+                            </li>
+                            <li>от 45.000 ₽
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h5 class="table__clarification">*Цены зависят от типа покрытия</h5>
+            </div>
+            <div class="tabs__description" *ngIf="activeTab == 'Ornament'" @Opacity>
+                <h3 class="tabs__description-title">ornament</h3>
+                <h4 class="tabs__description-subtitle">от 30.000 ₽</h4>
+                <h5 class="table__clarification">*Цены зависят от типа покрытия</h5>
+            </div>
+            <div class="tabs__description" *ngIf="activeTab == 'Forest'" @Opacity>
+                <h3 class="tabs__description-title">forest</h3>
+                <h4 class="tabs__description-subtitle">от 30.000 ₽</h4>
+                <h5 class="table__clarification">*Цены зависят от типа покрытия</h5>
+            </div>
+        </div>
+
+    </div>
+</div>

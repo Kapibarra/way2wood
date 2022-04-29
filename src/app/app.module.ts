@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './homepage/shared/components/header/header.component';
@@ -12,6 +11,12 @@ import { QuestionComponent } from './homepage/shared/components/question/questio
 import { DetailsComponent } from './homepage/shared/components/details/details.component';
 import { ContactsComponent } from './homepage/shared/components/contacts/contacts.component';
 import { FooterComponent } from './homepage/shared/components/footer/footer.component';
+import { MainPageComponent } from './homepage/main-page/main-page/main-page.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { AccordionComponent } from './homepage/shared/components/accordion/accordion.component';
+import { AccordionItemComponent } from './homepage/shared/components/accordion/accordion-item/accordion-item.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +29,16 @@ import { FooterComponent } from './homepage/shared/components/footer/footer.comp
     QuestionComponent,
     DetailsComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    MainPageComponent,
+    AccordionComponent,
+    AccordionItemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatExpansionModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
