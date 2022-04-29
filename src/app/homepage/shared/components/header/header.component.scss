@@ -3,17 +3,17 @@
     max-width: 1920px;
     opacity: 0.7;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.25);
     position: absolute;
     border: 1px solid #000000;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.6);
-    background-image: url("../img/main_bg.png");
+    background-image: url("../../../../../assets/img/main_bg.png");
     background-size: cover;
-  }
-  
-  .header {
+}
+
+.header {
     width: 100%;
     height: 105px;
     display: flex;
@@ -21,16 +21,18 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-  }
-  .header_logo {
+}
+
+.header_logo {
     width: 95px;
     margin-left: 180px;
-  }
-  .header__logo-img {
+}
+
+.header__logo-img {
     margin-bottom: 5px;
-  }
-  
-  .header__navigation-item {
+}
+
+.header__navigation-item {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,9 +40,9 @@
     justify-content: space-between;
     margin-bottom: 44px;
     margin-top: 45px;
-  }
-  
-  .header ul li {
+}
+
+.header ul li {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -55,16 +57,19 @@
     order: 2;
     flex-grow: 0;
     margin: 0px 30px;
-  }
-  .header_nav a{
+}
+
+.header_nav a {
     text-decoration: none;
     color: #777;
-  }
-  hr {
+}
+
+hr {
     border: 0.5px solid #878787;
     max-width: 1919px;
-  }
-  .header__phone {
+}
+
+.header__phone {
     width: 176px;
     margin-bottom: 36px;
     margin-top: 36px;
@@ -73,15 +78,17 @@
     line-height: 21px;
     color: #777;
     text-decoration: none;
-  }
-  
-  .header__phone_icon{
+}
+
+.header__phone_icon {
     margin-right: 10px;
-  }
-  .header-title {
+}
+
+.header-title {
     position: relative;
-  }
-  .header_title-title {
+}
+
+.header_title-title {
     text-transform: uppercase;
     color: #777;
     padding-top: 60px;
@@ -94,11 +101,13 @@
     font-weight: 300;
     font-size: 140px;
     line-height: 164px;
-  }
-  .number {
+}
+
+.number {
     color: #a9853a;
-  }
-  .header-post {
+}
+
+.header-post {
     font-family: "Roboto Condensed";
     font-weight: 300 light;
     font-size: 20px;
@@ -111,8 +120,9 @@
     justify-content: center;
     position: relative;
     top: -40px;
-  }
-  .header-button {
+}
+
+.header-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -124,8 +134,9 @@
     margin-top: 70px;
     border: 1px solid #777;
     box-sizing: border-box;
-  }
-  .blog__card-btn {
+}
+
+.blog__card-btn {
     color: #777;
     border: none;
     background: none;
@@ -134,15 +145,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-  }
+}
 
-  .header__next_icon{
-     padding: 80px 0;
-     box-sizing: border-box;
-     display: flex;
-     justify-content: center;
-     text-align: center;
-     margin-left: 50%;
-     
-   
-  }
+.header__next_icon {
+    padding: 80px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50%;
+}
