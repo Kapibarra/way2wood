@@ -57,5 +57,16 @@
         display: block;
         margin: 0 auto;
         margin-top: 75px;
+        animation: 1.3s linear 1.5s infinite running UpDown;
+    }
+}
+
+@keyframes UpDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
     }
 }
