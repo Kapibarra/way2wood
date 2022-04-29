@@ -166,3 +166,23 @@ body {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 5px;
+    color: #EDF2F7;
+}
+
+body::-webkit-scrollbar-track {
+    background: #EDF2F7;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 3px rgba(27, 27, 27, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #282828;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: inset 2px 2px 3px rgba(27, 27, 27, 0.2);
+}
