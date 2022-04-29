@@ -60,17 +60,19 @@
     border: 0.5px solid #878787;
     max-width: 1919px;
   }
-  .header__info {
+  .header__phone {
     width: 176px;
     margin-bottom: 36px;
     margin-top: 36px;
     margin-right: 55px;
     font-size: 18px;
     line-height: 21px;
-  }
-  .header-info {
-    text-decoration: none;
     color: #777;
+    text-decoration: none;
+  }
+  
+  .header__phone_icon{
+    margin-right: 10px;
   }
   .header-title {
     position: relative;
