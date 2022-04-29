@@ -56,6 +56,10 @@
     flex-grow: 0;
     margin: 0px 30px;
   }
+  .header_nav a{
+    text-decoration: none;
+    color: #777;
+  }
   hr {
     border: 0.5px solid #878787;
     max-width: 1919px;
