@@ -46,7 +46,26 @@ export class CollectionComponent implements OnInit {
       src: 'assets/img/flora/flora07.png',
     },
   ]
-  Forest: Collection[] = []
+  Forest: Collection[] = [
+    {
+      src: 'assets/img/forest/forest_01.png',
+    },
+    {
+      src: 'assets/img/forest/forest_02.png',
+    },
+    {
+      src: 'assets/img/forest/forest_03.png',
+    },
+    {
+      src: 'assets/img/forest/forest_04.png',
+    },
+    {
+      src: 'assets/img/forest/forest_05.png',
+    },
+    {
+      src: 'assets/img/forest/forest_06.png',
+    },
+  ]
   Ornament: Collection[] = [
     {
       src: 'assets/img/ornament/ornament01.png',
