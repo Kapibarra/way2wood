@@ -105,3 +105,18 @@
         }
     }
 }
+
+@media screen and (max-width:428px) {
+    .tabs__description-table {
+        flex-direction: column !important;
+        align-content: center !important;
+        & .description__table-ul {
+            margin-top: 30px;
+        }
+    }
+    .tabs__description {
+        border: none !important;
+        box-sizing: border-box;
+        padding: 0px 10px;
+    }
+}

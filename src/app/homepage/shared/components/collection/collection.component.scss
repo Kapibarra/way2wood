@@ -90,3 +90,23 @@
         }
     }
 }
+
+@media screen and (max-width:428px) {
+    .tabs__collection {
+        column-count: 1 !important;
+    }
+    .tabs__collection-item {
+        width: 100%;
+        min-width: 296px;
+    }
+    .tabs__description-title {
+        box-sizing: border-box;
+        padding: 0px 10px;
+    }
+    .collection__button {
+        font-size: 20px;
+        & img {
+            transform: translateX(0px) !important;
+        }
+    }
+}
