@@ -13,6 +13,7 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,5 +40,35 @@
     }
     & .contacts__right {
         margin: 0 auto;
+        & .right__title {
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 45px;
+            color: #777777;
+            margin-bottom: 30px;
+        }
+        & ul {
+            & li a {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                text-decoration: none;
+                color: #777777;
+                transition: all .3s ease;
+                font-weight: 300;
+                margin-bottom: 25px;
+                & img {
+                    margin-right: 15px;
+                }
+                &:hover {
+                    transition: all .3s ease;
+                    color: #4e4e4e;
+                    text-decoration: underline;
+                    font-weight: 300;
+                }
+            }
+        }
     }
 }
