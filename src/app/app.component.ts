@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
         easing: 'ease', // default easing for AOS animations
         once: true, // whether animation should happen only once - while scrolling down
         mirror: true, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-top', // defines which position of the element regarding to window should trigger the animation
+        anchorPlacement: 'top-center', // defines which position of the element regarding to window should trigger the animation
       
       }
     );

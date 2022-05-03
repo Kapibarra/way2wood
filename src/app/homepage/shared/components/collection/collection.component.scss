@@ -86,7 +86,15 @@
         justify-content: center;
         padding-bottom: 5px;
         & img {
-            transform: translateX(110px)
+            transform: translateX(50px);
+            transition: all .3s ease;
+        }
+        &:hover {
+            cursor: pointer;
+            & img {
+                transition: all .3s ease;
+                transform: translateX(110px)
+            }
         }
     }
 }
