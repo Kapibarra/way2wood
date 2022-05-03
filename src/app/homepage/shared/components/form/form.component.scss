@@ -37,6 +37,7 @@
         flex-wrap: nowrap;
         align-items: center;
         background: #404242;
+        border: 1px solid rgba(#404242, 0);
         color: #fff;
         text-transform: uppercase;
         border: none;
@@ -47,8 +48,17 @@
         letter-spacing: 1.5px;
         font-weight: 400;
         font-size: 14px;
+        transition: all 250ms ease;
         & img {
             margin-left: 10px;
+        }
+        &:hover {
+            transition: all 250ms ease;
+            padding-left: 26px;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid rgba(#404242, 1);
+            color: #404242;
         }
     }
 }
