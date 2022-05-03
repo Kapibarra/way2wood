@@ -16,6 +16,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { AccordionComponent } from './homepage/shared/components/accordion/accordion.component';
 import { AccordionItemComponent } from './homepage/shared/components/accordion/accordion-item/accordion-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormComponent } from './homepage/shared/components/form/form.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     MainPageComponent,
     AccordionComponent,
-    AccordionItemComponent
+    AccordionItemComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

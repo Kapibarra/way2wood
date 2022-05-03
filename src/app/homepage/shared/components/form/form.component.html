@@ -1,0 +1,11 @@
+<form class="contacts__form" (ngSubmit)="onSubmit(formValue.value)" novalidate #formValue="ngForm">
+    <input placeholder="Ваше Имя" ngModel name="name" />
+    <input placeholder="Ваш Телефон" ngModel name="phone" />
+    <textarea placeholder="Ваше сообщение" ngModel name="message">
+    </textarea>
+    <button type="submit" class="form__button">Отправить</button>
+    <p class="smalltext">Гарантируем конфидициальность и целевое использование данных</p>
+    <div class="popUp" id="popUp">
+        <img src=""> Ваше сообщение успешно отправлено!
+    </div>
+</form>
