@@ -1,11 +1,11 @@
 <div class="header__wrapper">
     <div class="header">
-        <div class="header__logo"><img class="header__logo" src="assets/icons/logo.png"></div>
+        <div class="header__logo" data-aos="fade-in" data-aos-duration="600" data-aos-delay="250" (click)="onClickScroll('hero')"><img class="header__logo" src="assets/icons/logo.png"></div>
         <nav class="header__nav" *ngIf="!mobile">
-            <a class="header__nav-item" (click)="onClickScroll('about')">о нас</a>
-            <a class="header__nav-item" (click)="onClickScroll('collection')">коллекции</a>
-            <a class="header__nav-item" (click)="onClickScroll('contacts')">заказать</a>
+            <a class="header__nav-item" (click)="onClickScroll('about')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">о нас</a>
+            <a class="header__nav-item" (click)="onClickScroll('collection')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">коллекции</a>
+            <a class="header__nav-item" (click)="onClickScroll('contacts')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">заказать</a>
         </nav>
-        <a href="" class="header__phone"><img class="header__phone-icon" src="assets/icons/icon_phone_header.svg">+7 999 499-94-93</a>
+        <a href="" class="header__phone" data-aos="fade-in" data-aos-duration="600" data-aos-delay="250"><img class="header__phone-icon" src="assets/icons/icon_phone_header.svg">+7 999 499-94-93</a>
     </div>
 </div>
