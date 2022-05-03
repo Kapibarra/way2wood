@@ -2,9 +2,9 @@
     <div class="header">
         <div class="header__logo"><img class="header__logo" src="assets/icons/logo.png"></div>
         <nav class="header__nav" *ngIf="!mobile">
-            <a class="header__nav-item">о нас</a>
-            <a class="header__nav-item">коллекции</a>
-            <a class="header__nav-item">заказать</a>
+            <a class="header__nav-item" (click)="onClickScroll('about')">о нас</a>
+            <a class="header__nav-item" (click)="onClickScroll('collection')">коллекции</a>
+            <a class="header__nav-item" (click)="onClickScroll('contacts')">заказать</a>
         </nav>
         <a href="" class="header__phone"><img class="header__phone-icon" src="assets/icons/icon_phone_header.svg">+7 999 499-94-93</a>
     </div>
