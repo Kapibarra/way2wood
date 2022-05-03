@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     box-sizing: border-box;
     padding: 0px 10px;
     & .about__inner-wrapper {
@@ -33,7 +33,13 @@
     & .about__image {
         width: 100%;
         max-width: 585px;
-        margin-top: 80px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about__inner-wrapper {
+        justify-content: center !important;
     }
 }
 

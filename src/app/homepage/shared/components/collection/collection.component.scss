@@ -91,10 +91,16 @@
     }
 }
 
-@media screen and (max-width:428px) {
+@media screen and (max-width:768px) {
     .tabs__collection {
         column-count: 1 !important;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 592px;
     }
+}
+
+@media screen and (max-width:428px) {
     .tabs__collection-item {
         width: 100%;
         min-width: 296px;
