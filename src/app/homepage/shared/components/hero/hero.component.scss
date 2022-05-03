@@ -61,6 +61,12 @@
     }
 }
 
+@media screen and (max-width:428px) {
+    .hero__title {
+        font-size: 66px !important;
+    }
+}
+
 @keyframes UpDown {
     0%,
     100% {

@@ -1,7 +1,7 @@
 <div class="header__wrapper">
     <div class="header">
         <div class="header__logo"><img class="header__logo" src="assets/icons/logo.png"></div>
-        <nav class="header__nav">
+        <nav class="header__nav" *ngIf="!mobile">
             <a class="header__nav-item">о нас</a>
             <a class="header__nav-item">коллекции</a>
             <a class="header__nav-item">заказать</a>
