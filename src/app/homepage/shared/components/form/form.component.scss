@@ -112,3 +112,12 @@
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width:968px) {
+    .form__btn-wrapper {
+        flex-wrap: wrap;
+    }
+    .form__button {
+        margin: 0 auto;
+    }
+}

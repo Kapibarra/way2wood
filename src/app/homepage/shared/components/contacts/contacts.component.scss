@@ -11,9 +11,11 @@
 .contacts {
     width: 100%;
     max-width: 1200px;
+    box-sizing: border-box;
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 120px;
+    padding: 0px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,7 +41,6 @@
         }
     }
     & .contacts__right {
-        margin: 0 auto;
         & .right__title {
             font-size: 30px;
             font-weight: 300;
@@ -70,5 +71,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:968px) {
+    .contacts__right {
+        margin-top: 30px;
     }
 }
