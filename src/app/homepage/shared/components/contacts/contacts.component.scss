@@ -18,7 +18,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
     & .contacts__left {
+        width: 100%;
+        max-width: 500px;
         margin: 0 auto;
+        & .left__title {
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 45px;
+            color: #777777;
+            margin-bottom: 30px;
+        }
+        & .left__subtitle {
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #777777;
+            margin-bottom: 30px;
+        }
     }
     & .contacts__right {
         margin: 0 auto;
