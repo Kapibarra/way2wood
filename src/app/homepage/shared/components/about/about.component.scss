@@ -3,6 +3,8 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 150px;
+    box-sizing: border-box;
+    padding: 0px 10px;
     & .about__inner-wrapper {
         display: flex;
         flex-direction: row;
@@ -29,6 +31,17 @@
         }
     }
     & .about__image {
+        width: 100%;
+        max-width: 585px;
         margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .about {
+        margin-top: 60px !important;
+    }
+    .about__image {
+        margin-top: 10px !important;
     }
 }
