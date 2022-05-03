@@ -48,3 +48,13 @@
         }
     }
 }
+
+@media screen and (max-width:428px) {
+    .header__phone {
+        padding-right: 15px;
+    }
+    .header__logo {
+        padding: 10px;
+        transform: translateY(7px);
+    }
+}
