@@ -1,0 +1,31 @@
+.contacts__form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    & input {
+        margin-bottom: 40px;
+        border: none;
+        border-bottom: 1px solid #777777;
+        transition: all 250ms ease;
+        height: 35px;
+        cursor: pointer;
+        &::placeholder {
+            transition: all 250ms ease;
+            padding-left: 10px;
+            transform: translateY(3px)
+        }
+        &:focus {
+            border-bottom: 1px solid #393246;
+            transition: all 250ms ease;
+            &::placeholder {
+                padding-left: 5px;
+                transition: all 250ms ease;
+                transform: translateY(-10px)
+            }
+        }
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}

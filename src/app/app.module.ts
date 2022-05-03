@@ -17,6 +17,8 @@ import { AccordionComponent } from './homepage/shared/components/accordion/accor
 import { AccordionItemComponent } from './homepage/shared/components/accordion/accordion-item/accordion-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormComponent } from './homepage/shared/components/form/form.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -39,8 +41,10 @@ import { FormComponent } from './homepage/shared/components/form/form.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
