@@ -91,11 +91,31 @@ export class CollectionComponent implements OnInit {
     {
       src: 'assets/img/ornament/ornament03.png',
     },
+
+    
+    {
+      src: 'assets/img/ornament/ornament05.png',
+    },
     {
       src: 'assets/img/ornament/ornament02.png',
     },
     {
+      src: 'assets/img/ornament/ornament07.png',
+    },
+    {
+      src: 'assets/img/ornament/ornament08.png',
+    },
+    {
       src: 'assets/img/ornament/ornament04.png',
+    },
+    {
+      src: 'assets/img/ornament/ornament09.png',
+    },
+    {
+      src: 'assets/img/ornament/ornament10.png',
+    },
+    {
+      src: 'assets/img/ornament/ornament11.png',
     },
   ]
   activeTab: string = 'Flora';
