@@ -133,6 +133,7 @@ export class CollectionComponent implements OnInit {
     },
   ]
   activeTab: string = 'Flora';
+
   constructor(private viewportscroller: ViewportScroller,) {}
 
   @ViewChildren("imageEl")
