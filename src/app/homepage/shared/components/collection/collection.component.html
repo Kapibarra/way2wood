@@ -12,7 +12,7 @@
                     и спокойной цветовой гамме, но W2W любит смелые цветовые решения! Именно в этой коллекции наиболее ярко выглядят металлизированные эмали, спецэффекты, патины и используются уникальные технологии покраски.
                 </h3>
                 <div class="tabs__collection">
-                    <img class="tabs__collection-item" *ngFor="let image of Flora" [src]="image.src">
+                    <img #imageEl class="tabs__collection-item" *ngFor="let image of Flora" [src]="image.src">
                 </div>
             </div>
             <div class="tabs__description" *ngIf="activeTab == 'Ornament'" @Opacity>
@@ -20,7 +20,7 @@
                     с необыкновенной точностью создавая тонкую работу. В мастерской W2W мы воссоздали древний орнамент, стараясь сохранить ритмичность рисунка и чёткость линий. Предмет интерьера из коллекции «Ornament» имеет не только художественную ценность,
                     но и хранит в себе память о былой культуре северного народа.</h3>
                 <div class="tabs__collection">
-                    <img class="tabs__collection-item" *ngFor="let image of Ornament" [src]="image.src">
+                    <img #imageEl class="tabs__collection-item" *ngFor="let image of Ornament" [src]="image.src">
                 </div>
             </div>
             <div class="tabs__description" *ngIf="activeTab == 'Forest'" @Opacity>
@@ -28,7 +28,7 @@
                     аллеях. Не зря многих художники, архитекторы и дизайнеры обращаются к органическим формам цветов, листьев. Эко-дизайн сегодня — это способ не просто добавить в интерьер природу в «чистом виде» — это сознательный шаг навстречу сохранению
                     грани, которая объединяет человека с естественной средой.</h3>
                 <div class="tabs__collection">
-                    <img class="tabs__collection-item" *ngFor="let image of Forest" [src]="image.src">
+                    <img #imageEl class="tabs__collection-item" *ngFor="let image of Forest" [src]="image.src">
                 </div>
             </div>
         </div>

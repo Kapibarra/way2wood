@@ -190,3 +190,12 @@ body::-webkit-scrollbar-thumb {
 html {
     scroll-behavior: smooth;
 }
+
+.image-zoom,
+.image-zoom-wrapper::after {
+    transition-timing-function: ease-in-out !important;
+}
+
+.image-zoom-wrapper::after {
+    background-color: skyblue !important;
+}

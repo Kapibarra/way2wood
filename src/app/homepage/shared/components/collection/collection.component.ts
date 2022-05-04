@@ -1,7 +1,7 @@
 import { style, transition, trigger, animate } from '@angular/animations';
 import { ViewportScroller } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { NgxImageZoomModule } from 'ngx-image-zoom';
+import { Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
+
 
 interface Collection {
   src: string;
@@ -133,13 +133,20 @@ export class CollectionComponent implements OnInit {
     },
   ]
   activeTab: string = 'Flora';
-  constructor(private viewportscroller: ViewportScroller) {}
+  constructor(private viewportscroller: ViewportScroller,) {}
 
-  ngOnInit(): void {}
+  @ViewChildren("imageEl")
+  imagesRef!: ElementRef<HTMLImageElement>[];
+
+  ngOnInit(): void {
+  }
+
   onTabCLick(tab: any) {
     this.activeTab = tab;
   }
   onClickScroll(elementId: string): void {
     this.viewportscroller.scrollToAnchor(elementId);
   }
+
+
 }
