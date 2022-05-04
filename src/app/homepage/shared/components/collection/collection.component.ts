@@ -1,6 +1,7 @@
 import { style, transition, trigger, animate } from '@angular/animations';
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 interface Collection {
   src: string;
@@ -85,7 +86,6 @@ export class CollectionComponent implements OnInit {
     {
       src: 'assets/img/forest/forest_06.png',
     },
-
     {
       src: 'assets/img/forest/forest_08.png',
     },
