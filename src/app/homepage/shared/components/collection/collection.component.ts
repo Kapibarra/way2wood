@@ -65,6 +65,9 @@ export class CollectionComponent implements OnInit {
   ]
   Forest: Collection[] = [
     {
+      src: 'assets/img/forest/forest_07.png',
+    },
+    {
       src: 'assets/img/forest/forest_01.png',
     },
     {
@@ -82,6 +85,17 @@ export class CollectionComponent implements OnInit {
     {
       src: 'assets/img/forest/forest_06.png',
     },
+
+    {
+      src: 'assets/img/forest/forest_08.png',
+    },
+    {
+      src: 'assets/img/forest/forest_10.png',
+    },
+    {
+      src: 'assets/img/forest/forest_09.png',
+    },
+
   ]
   Ornament: Collection[] = [
     {
