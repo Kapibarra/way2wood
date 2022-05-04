@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormComponent } from './homepage/shared/components/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PreloaderComponent } from './homepage/shared/components/preloader/preloader.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     MainPageComponent,
     AccordionComponent,
     AccordionItemComponent,
-    FormComponent
+    FormComponent,
+    PreloaderComponent
   ],
   imports: [
     BrowserModule,
