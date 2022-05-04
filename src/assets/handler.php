@@ -9,14 +9,14 @@ require 'php/PHPMailer-5.2.28/src/SMTP.php';
 
 $mail = new PHPMailer(true);
 $mail_subject = 'Заявка с сайта';
-$mail_to_email = 'El-ram@bk.ru'; // your email
+$mail_to_email = 'way2wood@mail.ru'; // your email
 $mail_to_name = 'Way2Wood.ru';
 
 try {
 
 	$mail_from_name = isset( $_POST['name'] ) ? $_POST['name'] : '';
 	$mail_from_phone = isset( $_POST['phone'] ) ? $_POST['phone'] : '';
-	$mail_from_service = isset( $_POST['message'] ) ? $_POST['service'] : '';
+	$mail_from_service = isset( $_POST['message'] ) ? $_POST['message'] : '';
 	
 	
 
