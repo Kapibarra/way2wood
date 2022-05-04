@@ -32,19 +32,35 @@ export class CollectionComponent implements OnInit {
       src: 'assets/img/flora/flora03.png',
     },
     {
-      src: 'assets/img/flora/flora04.png',
-    },
-    {
       src: 'assets/img/flora/flora05.png',
     },
     {
+      src: 'assets/img/flora/flora07.png',
+    },
+    {
+      src: 'assets/img/flora/flora04.png',
+    },
+
+    {
       src: 'assets/img/flora/flora06.png',
+    },
+    {
+      src: 'assets/img/flora/flora09.png',
+    },
+    {
+      src: 'assets/img/flora/flora10.png',
+    },
+    {
+      src: 'assets/img/flora/flora11.png',
     },
     {
       src: 'assets/img/flora/flora02.png',
     },
     {
-      src: 'assets/img/flora/flora07.png',
+      src: 'assets/img/flora/flora08.png',
+    },
+    {
+      src: 'assets/img/flora/flora12.png',
     },
   ]
   Forest: Collection[] = [
