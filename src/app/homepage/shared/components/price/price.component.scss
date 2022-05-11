@@ -106,12 +106,23 @@
     }
 }
 
+.description__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
 @media screen and (max-width:428px) {
     .tabs__description-table {
         flex-direction: column !important;
         align-content: center !important;
+        justify-content: center !important;
         & .description__table-ul {
             margin-top: 30px;
+            margin-right: 25px;
         }
     }
     .tabs__description {
