@@ -69,6 +69,24 @@
                     font-weight: 300;
                 }
             }
+            & .social__contacts {
+                & .social__contacts-icons {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-evenly;
+                    & img {
+                        width: 46px;
+                        height: 46px;
+                        filter: grayscale(100);
+                        transition: all 300ms ease;
+                        &:hover {
+                            filter: grayscale(0);
+                            transition: all 300ms ease;
+                        }
+                    }
+                }
+            }
         }
     }
 }
