@@ -2,7 +2,7 @@
   <div class="collection" id="collection">
     <h2 class="collection__title">коллекции</h2>
     <div class="collection__tabs">
-      <ul class="collection__tabs-nav">
+      <!-- <ul class="collection__tabs-nav">
         <li
           class="tabs__nav-item text-align-l"
           (click)="onTabCLick('Flora')"
@@ -82,6 +82,28 @@
             *ngFor="let image of Forest"
             [src]="image.src"
           />
+        </div>
+      </div> -->
+      <ul class="tab" class="collection__tabs-nav">
+        <li
+          *ngFor="let tab of tabs"
+          [class.active]="tab.active"
+          (click)="selectTab(tab)"
+          class="tabs__nav-item text-align-c"
+        >
+          {{ tab.title }}
+        </li>
+      </ul>
+
+      <div class="tab-content tabs__description">
+        <div
+          *ngFor="let tab of tabs"
+          [hidden]="!tab.active"
+          class="tabs__collection"
+        >
+          <div *ngFor="let image of tab.tabContent">
+            <img [src]="image.src" alt="" class="tabs__collection-item" />
+          </div>
         </div>
       </div>
     </div>
