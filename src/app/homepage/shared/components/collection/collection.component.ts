@@ -1,4 +1,3 @@
-import { style, transition, trigger, animate } from '@angular/animations';
 import { ViewportScroller } from '@angular/common';
 import { Component, ElementRef, OnInit, ViewChildren } from '@angular/core';
 
@@ -10,15 +9,6 @@ interface Collection {
 @Component({
   selector: 'app-collection',
   templateUrl: './collection.component.html',
-  // animations: [
-  //   trigger('Opacity', [
-  //     transition(':enter', [
-  //       style({ opacity: 0 }),
-  //       animate('250ms', style({ opacity: 1 })),
-  //     ]),
-  //     transition(':leave', [animate('250ms', style({ opacity: 0 }))]),
-  //   ]),
-  // ],
   styleUrls: ['./collection.component.scss'],
 })
 export class CollectionComponent implements OnInit {
@@ -255,9 +245,6 @@ export class CollectionComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onTabCLick(tab: any) {
-    this.activeTab = tab;
-  }
   onClickScroll(elementId: string): void {
     this.viewportscroller.scrollToAnchor(elementId);
   }
