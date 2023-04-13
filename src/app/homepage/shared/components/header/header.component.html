@@ -1,11 +1,22 @@
 <div class="header__wrapper">
-    <div class="header">
-        <div class="header__logo" data-aos="fade-in" data-aos-duration="600" data-aos-delay="250" (click)="onClickScroll('hero')"><img class="header__logo" src="assets/icons/logo.png"></div>
-        <nav class="header__nav" *ngIf="!mobile">
-            <a class="header__nav-item" (click)="onClickScroll('about')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">о нас</a>
-            <a class="header__nav-item" (click)="onClickScroll('collection')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">коллекции</a>
-            <a class="header__nav-item" (click)="onClickScroll('contacts')" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">заказать</a>
-        </nav>
-        <a href="tel:+79852439226" class="header__phone" data-aos="fade-in" data-aos-duration="600" data-aos-delay="250"><img class="header__phone-icon" src="assets/icons/icon_phone_header.svg">+7 985 243-92-26</a>
+  <div class="header">
+    <div class="header__logo" (click)="onClickScroll('hero')">
+      <img class="header__logo" src="assets/icons/logo.png" />
     </div>
+    <nav class="header__nav" *ngIf="!mobile">
+      <a class="header__nav-item" (click)="onClickScroll('about')">о нас</a>
+      <a class="header__nav-item" (click)="onClickScroll('collection')"
+        >коллекции</a
+      >
+      <a class="header__nav-item" (click)="onClickScroll('contacts')"
+        >заказать</a
+      >
+    </nav>
+    <a href="tel:+79852439226" class="header__phone"
+      ><img
+        class="header__phone-icon"
+        src="assets/icons/icon_phone_header.svg"
+      />+7 985 243-92-26</a
+    >
+  </div>
 </div>

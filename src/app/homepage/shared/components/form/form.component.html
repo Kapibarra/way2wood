@@ -1,12 +1,23 @@
-<form class="contacts__form" (ngSubmit)="onSubmit(formValue.value)" novalidate #formValue="ngForm">
-    <input placeholder="Ваше Имя" ngModel name="name" />
-    <input placeholder="Ваш Телефон" ngModel name="phone" />
-    <input placeholder="Ваше сообщение" ngModel name="message" />
-    <div class="form__btn-wrapper"> <button type="submit" class="form__button">Отправить<img src="assets/icons/arrow_white.png"></button>
-        <p class="smalltext">Нажимая на кнопку, я подтверждаю <a class="smalltext__link">согласие на обработку персональных данных</a></p>
-    </div>
+<form
+  class="contacts__form"
+  (ngSubmit)="onSubmit(formValue.value)"
+  novalidate
+  #formValue="ngForm"
+>
+  <input placeholder="Ваше Имя" ngModel name="name" />
+  <input placeholder="Ваш Телефон" ngModel name="phone" />
+  <input placeholder="Ваше сообщение" ngModel name="message" />
+  <div class="form__btn-wrapper">
+    <button type="submit" class="form__button">
+      Отправить<img src="assets/icons/arrow_white.png" />
+    </button>
+    <p class="smalltext">
+      Нажимая на кнопку, я подтверждаю
+      <a class="smalltext__link">согласие на обработку персональных данных</a>
+    </p>
+  </div>
 
-    <div class="popUp" id="popUp">
-        <img src="assets/icons/Done.png"> Ваше сообщение успешно отправлено!
-    </div>
+  <div class="popUp" id="popUp">
+    <img src="assets/icons/Done.png" /> Ваше сообщение успешно отправлено!
+  </div>
 </form>

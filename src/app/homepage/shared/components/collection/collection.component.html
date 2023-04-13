@@ -1,37 +1,92 @@
 <div class="collection-wrapper">
-    <div class="collection" id="collection">
-        <h2 class="collection__title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">коллекции</h2>
-        <div class="collection__tabs">
-            <ul class="collection__tabs-nav">
-                <li class="tabs__nav-item text-align-l" (click)="onTabCLick('Flora')" [class.active]="activeTab == 'Flora'">Flora</li>
-                <li class="tabs__nav-item text-align-c" (click)="onTabCLick('Ornament')" [class.active]="activeTab == 'Ornament'">Ornament</li>
-                <li class="tabs__nav-item text-align-r" (click)="onTabCLick('Forest')" [class.active]="activeTab == 'Forest'">forest</li>
-            </ul>
-            <div class="tabs__description" *ngIf="activeTab == 'Flora'" @Opacity>
-                <h3 class="tabs__description-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150"> Коллекция «Flora»- сплетение рельефного рисунка из листьев производит эффектное впечатление! Каждое изделие состоит из сотен граней, которые станут украшением любого интерьера. Зеркала из коллекции «Flora» могут быть выполнены в лаконичной
-                    и спокойной цветовой гамме, но W2W любит смелые цветовые решения! Именно в этой коллекции наиболее ярко выглядят металлизированные эмали, спецэффекты, патины и используются уникальные технологии покраски.
-                </h3>
-                <div class="tabs__collection">
-                    <img #imageEl class="tabs__collection-item" *ngFor="let image of Flora" [src]="image.src">
-                </div>
-            </div>
-            <div class="tabs__description" *ngIf="activeTab == 'Ornament'" @Opacity>
-                <h3 class="tabs__description-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150"> Эта коллекция появилась благодаря резным орнаментам усть-полуйской культуры Крайнего Севера. Узору более 2000-х тысяч лет! Именно вечная мерзлота помогла сохранить берестяные изделия в отличном качестве. Мастера прошлого работали на бересте
-                    с необыкновенной точностью создавая тонкую работу. В мастерской W2W мы воссоздали древний орнамент, стараясь сохранить ритмичность рисунка и чёткость линий. Предмет интерьера из коллекции «Ornament» имеет не только художественную ценность,
-                    но и хранит в себе память о былой культуре северного народа.</h3>
-                <div class="tabs__collection">
-                    <img #imageEl class="tabs__collection-item" *ngFor="let image of Ornament" [src]="image.src">
-                </div>
-            </div>
-            <div class="tabs__description" *ngIf="activeTab == 'Forest'" @Opacity>
-                <h3 class="tabs__description-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">Коллекция «Forest»- интерьерные картины W2W отражают многообразие и совершенство растений. Простые природные формы, качественное исполнение и цветовое решение наполнят Ваше пространство таинством леса и воспоминаниями о прогулках в тенистых
-                    аллеях. Не зря многих художники, архитекторы и дизайнеры обращаются к органическим формам цветов, листьев. Эко-дизайн сегодня — это способ не просто добавить в интерьер природу в «чистом виде» — это сознательный шаг навстречу сохранению
-                    грани, которая объединяет человека с естественной средой.</h3>
-                <div class="tabs__collection">
-                    <img class="tabs__collection-item" *ngFor="let image of Forest" [src]="image.src">
-                </div>
-            </div>
+  <div class="collection" id="collection">
+    <h2 class="collection__title">коллекции</h2>
+    <div class="collection__tabs">
+      <ul class="collection__tabs-nav">
+        <li
+          class="tabs__nav-item text-align-l"
+          (click)="onTabCLick('Flora')"
+          [class.active]="activeTab == 'Flora'"
+        >
+          Flora
+        </li>
+        <li
+          class="tabs__nav-item text-align-c"
+          (click)="onTabCLick('Ornament')"
+          [class.active]="activeTab == 'Ornament'"
+        >
+          Ornament
+        </li>
+        <li
+          class="tabs__nav-item text-align-r"
+          (click)="onTabCLick('Forest')"
+          [class.active]="activeTab == 'Forest'"
+        >
+          forest
+        </li>
+      </ul>
+      <div class="tabs__description" *ngIf="activeTab == 'Flora'" @Opacity>
+        <h3 class="tabs__description-title">
+          Коллекция «Flora»- сплетение рельефного рисунка из листьев производит
+          эффектное впечатление! Каждое изделие состоит из сотен граней, которые
+          станут украшением любого интерьера. Зеркала из коллекции «Flora» могут
+          быть выполнены в лаконичной и спокойной цветовой гамме, но W2W любит
+          смелые цветовые решения! Именно в этой коллекции наиболее ярко
+          выглядят металлизированные эмали, спецэффекты, патины и используются
+          уникальные технологии покраски.
+        </h3>
+        <div class="tabs__collection">
+          <img
+            #imageEl
+            class="tabs__collection-item"
+            *ngFor="let image of Flora"
+            [src]="image.src"
+          />
         </div>
-        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="250" data-aos-anchor-placement="bottom-bottom" class="collection__button" (click)="onClickScroll('contacts')">связаться с нами <img src="assets/icons/arrow_brown.png"></div>
+      </div>
+      <div class="tabs__description" *ngIf="activeTab == 'Ornament'" @Opacity>
+        <h3 class="tabs__description-title">
+          Эта коллекция появилась благодаря резным орнаментам усть-полуйской
+          культуры Крайнего Севера. Узору более 2000-х тысяч лет! Именно вечная
+          мерзлота помогла сохранить берестяные изделия в отличном качестве.
+          Мастера прошлого работали на бересте с необыкновенной точностью
+          создавая тонкую работу. В мастерской W2W мы воссоздали древний
+          орнамент, стараясь сохранить ритмичность рисунка и чёткость линий.
+          Предмет интерьера из коллекции «Ornament» имеет не только
+          художественную ценность, но и хранит в себе память о былой культуре
+          северного народа.
+        </h3>
+        <div class="tabs__collection">
+          <img
+            #imageEl
+            class="tabs__collection-item"
+            *ngFor="let image of Ornament"
+            [src]="image.src"
+          />
+        </div>
+      </div>
+      <div class="tabs__description" *ngIf="activeTab == 'Forest'" @Opacity>
+        <h3 class="tabs__description-title">
+          Коллекция «Forest»- интерьерные картины W2W отражают многообразие и
+          совершенство растений. Простые природные формы, качественное
+          исполнение и цветовое решение наполнят Ваше пространство таинством
+          леса и воспоминаниями о прогулках в тенистых аллеях. Не зря многих
+          художники, архитекторы и дизайнеры обращаются к органическим формам
+          цветов, листьев. Эко-дизайн сегодня — это способ не просто добавить в
+          интерьер природу в «чистом виде» — это сознательный шаг навстречу
+          сохранению грани, которая объединяет человека с естественной средой.
+        </h3>
+        <div class="tabs__collection">
+          <img
+            class="tabs__collection-item"
+            *ngFor="let image of Forest"
+            [src]="image.src"
+          />
+        </div>
+      </div>
     </div>
+    <div class="collection__button" (click)="onClickScroll('contacts')">
+      связаться с нами <img src="assets/icons/arrow_brown.png" />
+    </div>
+  </div>
 </div>
