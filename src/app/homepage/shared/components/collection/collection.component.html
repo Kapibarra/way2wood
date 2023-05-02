@@ -96,13 +96,25 @@
       </ul>
 
       <div class="tab-content tabs__description">
+        <h3
+          class="tabs__description-title"
+          *ngFor="let tab of tabs"
+          [hidden]="!tab.active"
+        >
+          {{ tab.description }}
+        </h3>
         <div
           *ngFor="let tab of tabs"
           [hidden]="!tab.active"
           class="tabs__collection"
         >
-          <div *ngFor="let image of tab.tabContent">
-            <img [src]="image.src" alt="" class="tabs__collection-item" />
+          <div>
+            <img
+              [src]="image.src"
+              alt=""
+              class="tabs__collection-item"
+              *ngFor="let image of tab.tabContent"
+            />
           </div>
         </div>
       </div>
